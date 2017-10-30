@@ -20,5 +20,6 @@
     "dev",
     "reports"
   ],
-  "version": "2.0.6"
+  "version": "2.0.6",
+  "lib" : ["es2015", "es2015.iterable", "dom"]
 }

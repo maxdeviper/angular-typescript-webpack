@@ -20,7 +20,8 @@
     "label-undefined": true,
     "max-line-length": [true, 140],
     "member-access": true,
-    "member-ordering": [true,
+    "member-ordering": [
+      true,
       "public-before-private",
       "static-before-instance",
       "variables-before-functions"
@@ -56,7 +57,7 @@
     "no-use-before-declare": true,
     "no-var-keyword": false,
     "no-var-requires": false,
-    "one-line": [true,
+    "one-line": [false,
       "check-open-brace",
       "check-catch",
       "check-else",
@@ -74,7 +75,7 @@
       "variable-declaration",
       "member-variable-declaration"
     ],
-    "typedef-whitespace": [true, {
+    "typedef-whitespace": [false, {
       "call-signature": "nospace",
       "index-signature": "nospace",
       "parameter": "nospace",
@@ -86,7 +87,7 @@
       "check-function"
     ],
     "variable-name": false,
-    "whitespace": [true,
+    "whitespace": [false,
       "check-branch",
       "check-decl",
       "check-operator",
